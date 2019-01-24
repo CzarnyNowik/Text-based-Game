@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb79dc73e04ce684b975b5f8180a0709, type: 3}
+  m_Name: X1. Game Over
+  m_EditorClassIdentifier: 
+  nextStates:
+  - {fileID: 11400000, guid: c1198d43e1d495841b6b17690d1e0c33, type: 2}
+  - {fileID: 11400000, guid: c74a88e2bd5b6254aa0587438e0415ef, type: 2}
+  storyText: "Well, that clearly wasn't the right choice. \r\n\r\nYou failed.\r\n\r\nNo
+    parade for you.\r\n\r\nWant to try again?\r\n1. Yes, this time I shall taste glory.\r\n2.
+    No, I'm going to go sulk for a while."
