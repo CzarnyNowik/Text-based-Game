@@ -12,18 +12,15 @@ public class AdventureGame : MonoBehaviour {
 
     State state;
 
-	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         state = startingState;
         textComponent.text = state.GetStateStory();
-
     }
 	
-	// Update is called once per frame
-	void Update () {
-
+	void Update ()
+    {
         ManageState();
-		
 	}
 
     private void ManageState()
@@ -36,7 +33,6 @@ public class AdventureGame : MonoBehaviour {
                 state = nextStates[index];
             }
         }
-
         textComponent.text = state.GetStateStory();
     }
 
